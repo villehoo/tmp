@@ -50,3 +50,5 @@ baseurl=http://vault.centos.org/centos/6.10/contrib/$basearch/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+wget --no-check-certificate http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
